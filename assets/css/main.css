@@ -3248,6 +3248,23 @@ input, select, textarea {
 				height: 100vh;
 			}
 
+		#wrapper.fade-in:before {
+			pointer-events: none;
+			background: #1e252d;
+			content: '';
+			display: block;
+			height: 100%;
+			left: 0;
+			opacity: 0;
+			position: fixed;
+			top: 0;
+			width: 100%;
+		}
+
+		body.is-preload #wrapper.fade-in:before {
+			opacity: 1;
+		}
+
 		@media screen and (orientation: portrait) {
 
 			#wrapper > .bg {

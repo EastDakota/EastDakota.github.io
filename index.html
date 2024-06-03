@@ -1,95 +1,168 @@
-<!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<title>Dakota Scott's Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dakota Scott's Professional Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77d42a 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        section {
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .main {
+            background: #fff;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .main h2 {
+            color: #333;
+        }
+        .main ul {
+            list-style: none;
+            padding: 0;
+        }
+        .main ul li {
+            background: #f4f4f4;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-left: #77d42a 3px solid;
+        }
+        footer {
+            padding: 20px;
+            margin-top: 20px;
+            color: #fff;
+            background-color: #333;
+            text-align: center;
+        }
+    </style>
 </head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Dakota Scott</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#organizations">Organizations</a></li>
+                    <li><a href="#education">Education</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-<body class="is-preload">
-	<!-- Wrapper -->
-	<!-- Intro -->
-	<div id="intro">
-		<h1>Dakota Scott's Portfolio</h1>
-		<body>
-			<img src="images/Self_photo.jpg" alt="ME" width="300"
-			   height="400">
-		 </body>
-	</div>
-	<!-- Main -->
-	<div id="main">
-		<!-- Featured Post -->
-		<article class="post featured">
-			<header class="major">
-				<p><a
-						href="https://github.com/EastDakota/Files-I-will-link-to-from-my-website/blob/main/Dakota_Scott_Resume.pdf">My
-						Resume</a></p>
-			</header>
-		</article>
-		<article class="bio">
-			<header class="bio">
-				<p>I'm a student at Old Dominion University, going for an M.S. in Computer Science, focusing on Machine Learning and Artifical Intelligence. I graduated from James Madison University in May 2023 with a B.S. in Computer Science.<br> I was a
-					Student Researcher for two summers under <a
-						href="https://w3.cs.jmu.edu/molloykp/"> Dr. Kevin Molloy</a>.</p>
-			</header>
-		</article>
-		<!-- Posts -->
-		<!-- Footer -->
-		<!--<a href="#" class="previous">Prev</a>-->
+    <section class="main container">
+        <h2>Contact Information</h2>
+        <p>Email: <a href="mailto:DakotaAlexScott@gmail.com">DakotaAlexScott@gmail.com</a></p>
+        <p>Location: Virginia Beach, Virginia</p>
 
-		<!-- <footer>
-			<div class="pagination">
-				<a href="#" class="page active(You think we have a budget for more than one page?)">1</a>
-			</div>
-		</footer> -->
+        <h2 id="experience">Work / Research Experience</h2>
+        <ul>
+            <li>
+                <strong>James Madison University CS Department Teacher’s Assistants Program</strong> (Fall 2020 – Spring 2023)<br>
+                Lead Teaching Assistant, Harrisonburg, VA<br>
+                <ul>
+                    <li>Managed Student-TA relationships both within the computer lab and during lab hours.</li>
+                    <li>Assisted newer students in completing projects and learning to write and debug programs.</li>
+                    <li>Led review sessions for CS227: Discrete Structures to help students review material or clarify unclear subjects.</li>
+                </ul>
+            </li>
+            <li>
+                <strong>JMU Summer Research Computational Protein Folding using Machine Learning</strong> (June 2021 – August 2022)<br>
+                Student Research Assistant, JMU Campus<br>
+                <ul>
+                    <li>Developed Python files to calculate optimal Hyperparameter Values for MILStroud software.</li>
+                    <li>Streamlined workflow by managing interactions between produced code.</li>
+                    <li>Learned to write bash scripts to link executions of Python, C, and Java files.</li>
+                </ul>
+            </li>
+        </ul>
 
-	</div>
-	<!-- Footer -->
-	<footer id="footer">
-		<section class="split contact">
-			<section class="alt">
-				<h3>Address</h3>
-				<p>2008 Webb University Center, Norfolk, VA 23529 (ODU)</p>
-			</section>
-			<section>
-				<h3>Phone</h3>
-				<p>I am not putting my phone number on the internet</a></p>
-			</section>
-			<section>
-				<h3>Email</h3>
-				<p><a href="dscot047@odu.edu">dscot047@odu.edu</a></p>
-			</section>
-			<section>
-				<h3>LinkedIn</h3>
-				<p><a
-						href="https://www.linkedin.com/in/dakota-scott-51020619a?trk=public_profile_browsemap_profile-result-card_result-card_full-click">My
-						LinkedIn</a></p>
-			</section>
+        <h2 id="skills">Relevant Job Skills</h2>
+        <ul>
+            <li>Bilingual: Fluent in both English and French</li>
+            <li>Programming Languages: C, Java, Python, Haskell, TeX</li>
+            <li>Prior experience using: Trello, AlphaFold, GitHub, MILStroud</li>
+        </ul>
 
-		</section>
-	</footer>
+        <h2 id="projects">Projects</h2>
+        <ul>
+            <li>
+                <strong>Protein Database Entry GMX Clustering</strong><br>
+                Developed several Machine Learning Models to cluster protein structure representations (PDB Files) and the underlying protein sequence representations.<br>
+                Mathematically assessed likelihoods of variations in the SARS-CoV-2 (Covid-19) virus based on clusters of sequence variations.
+            </li>
+        </ul>
 
-	<!-- Copyright -->
-	<div id="copyright">
-		<ul>
-			<li>&copy; Untitled</li>
-			<li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
-		</ul>
-	</div>
+        <h2 id="organizations">Professional Organizations / Affiliations</h2>
+        <ul>
+            <li>
+                <strong>Upsilon Pi Epsilon: International Honor Society for the Computing and Information Disciplines</strong><br>
+                UPE Vice President (Mar. 2021 – Mar. 2022)<br>
+                UPE President (Mar. 2022 – Mar. 2023)
+            </li>
+        </ul>
 
-	<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.scrollex.min.js"></script>
-	<script src="assets/js/jquery.scrolly.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
+        <h2 id="education">Education</h2>
+        <ul>
+            <li>
+                <strong>James Madison University</strong> (Spring 2023)<br>
+                B.S. in Computer Science<br>
+                Minors in Philosophy, Logic, and Reasoning
+            </li>
+            <li>
+                <strong>Old Dominion University</strong> (Spring 2024 - Spring 2025)<br>
+                M.S. in Computer Science
+            </li>
+        </ul>
+    </section>
 
+    <footer>
+        <p>Dakota Scott | &copy; 2024</p>
+    </footer>
 </body>
-
 </html>
